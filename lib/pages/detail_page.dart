@@ -2,11 +2,8 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:marvel_challenge/customIcons.dart';
-import 'package:marvel_challenge/widgets/card_widget.dart';
 import 'package:http/http.dart' as http;
 import 'package:marvel_challenge/widgets/lists_widget.dart';
-import 'package:stretchy_header/stretchy_header.dart';
 
 class Detailpage extends StatefulWidget {
   const Detailpage({Key? key, required this.id, required this.name}) : super(key: key);
